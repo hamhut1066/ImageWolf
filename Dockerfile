@@ -26,4 +26,4 @@ RUN cp docker/docker bin/
 # ENV PATH "/"
 # COPY --from=build /go/imagewolf /imagewolf
 # COPY --from=build-docker /docker/docker /docker
-CMD ["/imagewolf"]
+CMD ["/go/imagewolf"]
