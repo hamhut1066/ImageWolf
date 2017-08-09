@@ -1,4 +1,4 @@
-FROM golang:1.7 AS build
+FROM golang:1.8 AS build
 
 RUN go get github.com/anacrolix/utp
 RUN go get github.com/anacrolix/torrent/
